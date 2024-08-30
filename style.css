@@ -1,0 +1,37 @@
+#project-table {
+    border-spacing: 20px;
+}
+
+#project-table > tbody > tr > td {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a:hover .bottom{
+    background-color: lightgray;
+}
+
+.top {
+    height: 70%;
+}
+.bottom {
+    background-color: white;
+    height: 30%;
+}
+
+.bottom {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
