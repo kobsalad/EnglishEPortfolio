@@ -1,37 +1,40 @@
-#project-table {
-    border-spacing: 20px;
+#header {
+    background-color: rgb(255, 214, 186);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#project-table > tbody > tr > td {
-    border: 2px solid black;
-    height: 200px;
-    width: 200px;
+#header > p {
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 0 10px;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 50px;
+    line-height: 50px;
 }
 
-a:hover .bottom{
-    background-color: lightgray;
+#header > a > button {
+    height: 50px;
+    padding: 10px;
+    float: left;
+    border: none;
+    background-color: rgb(255, 179, 128);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.top {
-    height: 70%;
-}
-.bottom {
-    background-color: white;
-    height: 30%;
+#header > a > button:hover {
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
 }
 
-.bottom {
-    font-family: "Segoe UI";
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+body {
+    margin-top: 70px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+h1 {
+    font-family: Georgia;
+    font-weight: 100;
 }
