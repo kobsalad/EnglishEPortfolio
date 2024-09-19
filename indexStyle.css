@@ -35,3 +35,39 @@ a {
     font-weight: bold;
     text-align: center;
 }
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:not(:checked) + div + div {
+    display: none;
+}
+
+input[type="checkbox"]:checked + div {
+    display: none;
+}
+
+input[type="checkbox"]:not(:checked) {
+    display: none;
+}
+
+h2:has(input:checked) + div {
+    display: none;
+}
+
+label div {
+    display: inline;
+    background-color: rgb(255, 214, 186);
+    padding: 3px 7px 3px 7px;
+    border: 1px solid black;
+}
+
+label div:hover {
+    background-color: rgb(255, 179, 128);
+    cursor: pointer;
+}
+
+h2 {
+    clear: left;
+}
