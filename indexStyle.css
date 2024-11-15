@@ -103,3 +103,15 @@ label div:hover {
 h2 {
     clear: left;
 }
+
+.text-section {
+    max-width: 600px;
+    margin-left: 10px;
+}
+.text-section h3 {
+    margin-bottom: 5px;
+    
+}
+.text-section p {
+    margin-left: 10px;
+}
